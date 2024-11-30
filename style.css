@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    background-color: #1a237e;
+    color: #FFFFFF;
+}
+
+h3 {
+    margin: 1rem;
+    color: #FFFFFF;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2rem;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userFlash {
+    background-color: gold;
+}
+
+#rules, #score {
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border: 1px solid #FFFFFF;
+    max-width: 400px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+@keyframes glow {
+    0%, 100% {
+        box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+    }
+    50% {
+        box-shadow: 0 0 20px red, 0 0 40px red, 0 0 60px red;
+    }
+}
+
+.glow {
+    animation: glow 0.5s alternate infinite;
+}
