@@ -3,7 +3,7 @@ let userSeq = [];
 let level = 0;
 let started = false;
 let score = 0;
-
+let count = 0;
 const h2 = document.querySelector("h2");
 const allBtns = document.querySelectorAll(".btn");
 const colors = ["yellow", "red", "blue", "green"];
